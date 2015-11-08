@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>VR RTC viewer</title>
+
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+    head, body {
+      margin:0;
+      padding: 0;
+    }
+    .vrvideo {
+       margin: 0;
+       padding: 0;
+       max-width: 49%;
+       height: 100vh;
+       object-fit: fill;
+       background-color: #334;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="vr-wrapper">
+      <video class="vrvideo" id="vidL" muted="true"></video>
+      <video class="vrvideo" id="vidR" muted="true"></video>
+    </div>
+    <script src="js/adapter.js"></script>
+    <script src="ws/primus.js"></script>
+    <script src="js/ws.js"></script>
+    <script src="js/vr.js"></script>
+  </body>
+</html>

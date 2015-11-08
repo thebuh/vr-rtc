@@ -1,0 +1,30 @@
+{
+  "name": "vr-rtc",
+  "version": "0.0.1",
+  "description": "VR player and WebRTC server for binocular video streaming inspired by http://xkcd.com/941/",
+  "main": "server.js",
+  "dependencies": {
+    "node-static": "^0.7.7",
+    "ws": "^0.8.0",
+    "primus": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebuh/vr-rtc.git"
+  },
+  "keywords": [
+    "vr",
+    "webrtc"
+  ],
+  "author": "thebuh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebuh/vr-rtc/issues"
+  },
+  "homepage": "https://github.com/thebuh/vr-rtc#readme"
+}
